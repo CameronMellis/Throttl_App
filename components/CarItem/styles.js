@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     color: 'gray',
   },
 
-  carImage: {
+  image: {
     width: '100%',
     height: '100%',
     resizeMode: 'contain',
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 10,
     width: '100%',
-  }
+  },
 });
 
 export default styles;
