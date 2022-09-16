@@ -2,14 +2,14 @@ export default [
   {
     name: 'Bugatti Chiron',
     tagline: '$10,000/day',
-    image: require('../../assets/images/bugattiChiron.jpeg'),
+    image: require('../../assets/images/bugattiChiron.jpg'),
   },
-// {
-//   name: 'Model 3',
-//   tagline: 'Order Online for',
-//   taglineCTA: 'Touchless Delivery',
-//   image: require('../../assets/images/Model3.jpeg'),
-// }, {
+{
+  name: 'Bugatti Chiron Back',
+  tagline: 'Order Online for Delivery',
+  image: require('../../assets/images/bugattiChironBack.jpg'),
+},
+//  {
 //   name: 'Model X',
 //   tagline: 'Order Online for',
 //   taglineCTA: 'Touchless Delivery',
