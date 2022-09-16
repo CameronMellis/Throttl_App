@@ -4,7 +4,6 @@ export default [
     tagline: '$10,000/day',
     image: require('../../assets/images/bugattiChiron.jpeg'),
   },
-];
 // {
 //   name: 'Model 3',
 //   tagline: 'Order Online for',
@@ -20,4 +19,5 @@ export default [
 //   tagline: 'Order Online for',
 //   taglineCTA: 'Touchless Delivery',
 //   image: require('../../assets/images/ModelY.jpeg'),
-// }];
+// }
+];

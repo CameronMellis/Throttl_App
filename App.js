@@ -1,20 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
-import CarItem from './components/CarItem';
+import { StyleSheet, View } from 'react-native';
+import CarsList from './components/CarsList';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem
-        name={'Bugatti Chiron'}
-        tagline={'$10,000 CAD per day '}
-        image={require('./assets/images/bugattiChiron.jpg')}
-      />
+
+      <CarsList   />
 
       <StatusBar style='auto' />
     </View>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
