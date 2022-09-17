@@ -13,7 +13,7 @@ export default function App() {
   );
 }
 
-
+// Stopped @ 13533
 
 const styles = StyleSheet.create({
   container: {

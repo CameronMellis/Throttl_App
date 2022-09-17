@@ -4,20 +4,19 @@ export default [
     tagline: '$10,000/day',
     image: require('../../assets/images/bugattiChiron.jpg'),
   },
-{
-  name: 'Bugatti Chiron Back',
-  tagline: 'Order Online for Delivery',
-  image: require('../../assets/images/bugattiChironBack.jpg'),
-},
-//  {
-//   name: 'Model X',
-//   tagline: 'Order Online for',
-//   taglineCTA: 'Touchless Delivery',
-//   image: require('../../assets/images/ModelX.jpeg'),
-// }, {
-//   name: 'Model Y',
-//   tagline: 'Order Online for',
-//   taglineCTA: 'Touchless Delivery',
-//   image: require('../../assets/images/ModelY.jpeg'),
-// }
+  {
+    name: 'La Ferrari Aperta',
+    tagline: '$10,500/day',
+    image: require('../../assets/images/ferrariAperta.jpeg'),
+  },
+  {
+    name: 'Lamborghini Urus Performante',
+    tagline: '$8,000/day',
+    image: require('../../assets/images/urusPerformante.jpeg'),
+  },
+  {
+    name: 'Rolls Royce Wraith',
+    tagline: '$9,000/day',
+    image: require('../../assets/images/rollsroyceWraith.jpeg'),
+  },
 ];
