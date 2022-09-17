@@ -1,13 +1,13 @@
 export default [
   {
-    name: 'Bugatti Chiron',
-    tagline: '$10,000/day',
-    image: require('../../assets/images/bugattiChiron.jpg'),
-  },
-  {
     name: 'La Ferrari Aperta',
     tagline: '$10,500/day',
     image: require('../../assets/images/ferrariAperta.jpeg'),
+  },
+  {
+    name: 'Bugatti Chiron',
+    tagline: '$10,000/day',
+    image: require('../../assets/images/bugattiChiron.jpg'),
   },
   {
     name: 'Lamborghini Urus Performante',

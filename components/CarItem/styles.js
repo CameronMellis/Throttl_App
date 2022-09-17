@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 
   titles: {
-    marginTop: '20%',
+    marginTop: '25%',
     alignItems: 'center',
     width: '100%',
   },
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 
   buttonsContainer: {
     position: 'absolute',
-    bottom: 10,
+    bottom: 45,
     width: '100%',
   },
 });
