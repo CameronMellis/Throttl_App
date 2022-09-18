@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import CarsList from './components/CarsList';
 import Header from './components/Header';
+import FormModal from './components/FormModal/form';
 
 export default function App() {
   return (

@@ -1,17 +1,16 @@
-import React from 'react';
-import { View, Text, ImageBackground } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, ImageBackground, Modal } from 'react-native';
+import FormModal from '../FormModal/form';
 import StyledButton from '../StyledButton';
 import styles from './styles';
+require = FormModal;
 
 const CarItem = (props) => {
   const { name, tagline, image } = props.car;
 
   return (
     <View style={styles.carContainer}>
-      <ImageBackground
-        source={image}
-        style={styles.image}
-      />
+      <ImageBackground source={image} style={styles.image} />
 
       <View style={styles.titles}>
         <Text style={styles.title}>{name}</Text>
@@ -22,7 +21,11 @@ const CarItem = (props) => {
         <StyledButton
           type='primary'
           content={'Book this car'}
-          onPress={() => {}}
+          onPress={() => {
+            {
+              setModalIsOpenToTrue;
+            }
+          }}
         />
 
         <StyledButton
