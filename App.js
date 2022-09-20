@@ -1,9 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import CarsList from './components/CarsList';
 import Header from './components/Header';
-import FormModal from './components/FormModal/form';
 
 export default function App() {
   return (
