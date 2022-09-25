@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { View, Text, ImageBackground, Modal, TextInput } from 'react-native';
+import {View, Text, ImageBackground, Modal, TextInput, Button } from 'react-native';
 import StyledButton from '../StyledButton';
+import FormModal from '../FormModal';
 import styles from './styles';
 
 const CarItem = (props) => {
@@ -16,7 +17,13 @@ const CarItem = (props) => {
         <Text style={styles.subtitle}>{tagline}</Text>
       </View>
 
-      <Modal
+      <FormModal
+        visible={modalVisible}
+        style={styles.modal}
+        animationType={'slide'}
+      />
+
+      {/* <Modal
         visible={modalVisible}
         style={styles.modal}
         animationType={'slide'}
@@ -25,13 +32,14 @@ const CarItem = (props) => {
           <TextInput style={styles.input} placeholder='Name' />
           <TextInput style={styles.input} placeholder='Email' />
           <TextInput style={styles.input} placeholder='Phone Number' />
+          <StyledButton type='primary' content={'Submit'} />
           <StyledButton
-            type='primary'
+            type='secondary'
             content={'Close'}
             onPress={() => setModalVisible(false)}
           />
         </View>
-      </Modal>
+      </Modal> */}
 
       <View style={styles.buttonsContainer}>
         <StyledButton
